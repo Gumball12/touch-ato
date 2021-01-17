@@ -1,18 +1,14 @@
-<template>
-  ^~^
-</template>
-
-<script setup>
-import * as PIXI from 'pixi.js';
-</script>
+<template></template>
 
 <script>
-console.log(PIXI);
+import render from './render';
+render();
 </script>
 
 <style>
 body {
   margin: 0;
   overflow: hidden;
+  background-color: #FFD891;
 }
 </style>
